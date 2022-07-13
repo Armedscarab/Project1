@@ -3,7 +3,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 h2{color:royalblue;}
 h1{color: green;
-background-color:lightgray;}
+background-color:#FCF8E8;
+border-radius: 10px;
+}
 
 .content{ background-color:whitesmoke;}
 
@@ -14,24 +16,40 @@ background-color:lightgray;}
 
 .left{
     width: 25%;
-    background-color:lightgreen;
+    background-color:#ECB390;
     border-radius: 10px;
     border: 1px solid #333;
     box-shadow: 8px 8px 5px #444;
     padding: 8px 12px;
+    margin-right: 15px;
 }
 .right{
     width: 75%;
-    padding: 15px;
-    background-color:rgb(231, 227, 220);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FCF8E8;
     border-radius: 10px;
     box-shadow: 0px 0px 0px black;
     border: 2px solid;
+    box-shadow: 8px 8px 5px #444;
 }
 
 .skills{
-    background-color:rgb(231, 227, 220);
+    background-color:#CEE5D0;
     padding-left: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
+    border-radius: 10px;
+
+}
+
+.right-2{
+    border: 10px;
+    border: 1px solid #333;
+    padding: 15px;
+    background-color:#CEE5D0;
+    align-items: inherit;
+    border-radius: 10px;
+
 }
