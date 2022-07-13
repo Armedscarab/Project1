@@ -1,0 +1,37 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+h2{color:royalblue;}
+h1{color: green;
+background-color:lightgray;}
+
+.content{ background-color:whitesmoke;}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.left{
+    width: 25%;
+    background-color:lightgreen;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+}
+.right{
+    width: 75%;
+    padding: 15px;
+    background-color:rgb(231, 227, 220);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px black;
+    border: 2px solid;
+}
+
+.skills{
+    background-color:rgb(231, 227, 220);
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
